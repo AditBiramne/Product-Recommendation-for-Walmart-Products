@@ -45,19 +45,24 @@ This project builds a **content-based recommendation system** using product desc
 - Select and upload your data file (e.g., `products.csv`)
 - Load it using:
 
-  '''import pandas as pd
-  df = pd.read_csv('/content/products.csv')'''
+```python
+import pandas as pd
+df = pd.read_csv('/content/products.csv')
+```
 
 🔗 Or Mount Google Drive:
 
-  '''from google.colab import drive
-  drive.mount('/content/drive')
-
-  df = pd.read_csv('/content/drive/MyDrive/path_to_file/products.csv')'''
+```bash
+from google.colab import drive
+drive.mount('/content/drive')
+df = pd.read_csv('/content/drive/MyDrive/path_to_file/products.csv')
+```
 
 ✅ Step 3: Install Required Libraries (if needed)
 
-  '''!pip install pandas numpy scikit-learn'''
+```bash
+!pip install pandas numpy scikit-learn
+```
 
 ✅ Step 4: Run the Notebook
 
