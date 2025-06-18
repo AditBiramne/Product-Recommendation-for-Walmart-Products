@@ -45,28 +45,23 @@ This project builds a **content-based recommendation system** using product desc
 - Select and upload your data file (e.g., `products.csv`)
 - Load it using:
 
-  import pandas as pd
-  df = pd.read_csv('/content/products.csv')
+  '''import pandas as pd
+  df = pd.read_csv('/content/products.csv')'''
 
 🔗 Or Mount Google Drive:
 
-  from google.colab import drive
+  '''from google.colab import drive
   drive.mount('/content/drive')
 
-  df = pd.read_csv('/content/drive/MyDrive/path_to_file/products.csv')
+  df = pd.read_csv('/content/drive/MyDrive/path_to_file/products.csv')'''
 
 ✅ Step 3: Install Required Libraries (if needed)
 
-  !pip install pandas numpy scikit-learn
+  '''!pip install pandas numpy scikit-learn'''
 
 ✅ Step 4: Run the Notebook
 
 - Run all cells using Shift + Enter
 - Input a product name and receive similar product recommendations based on description similarity
-
-!pip install pandas numpy scikit-learn
-
-✅ Step 4: Run the Notebook
-Run all cells (Shift + Enter)
 
 Input a product and receive similar product recommendations!
